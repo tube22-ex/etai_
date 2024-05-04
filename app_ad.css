@@ -1,0 +1,57 @@
+/*==============================================================================
+// 
+// e-typing 広告画面用CSS
+// 
+==============================================================================*/
+
+html {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+body {
+	font: 76%/180% "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック";
+	color: #595959;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.ad728 {
+	width: 728px;
+	height: 90px;
+/*	overflow: hidden;*/
+	margin: 0 auto 5px;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+ul.ad728 {
+	list-style-type: none;
+}
+
+.ad728 li {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+}
+
+.ad468 {
+	width: 468px;
+	height: 60px;
+	overflow: hidden;
+	margin: 0 auto 5px;
+	display: block;
+}
+

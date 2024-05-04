@@ -1,0 +1,85 @@
+		<article>
+			<section id="current">
+				<h1>今回のタイピング結果</h1>
+
+				<div id="exampleList"><%= example_list %></div>
+
+				<div class="result_data">
+					<ul>
+						<li>
+							<div class="title">スコア</div>
+							<div class="data"><%- c_score %></div>
+						</li>
+						<li>
+							<div class="title">レベル</div>
+							<div class="data"><%- c_level %></div>
+						</li>
+						<li>
+							<div class="title">入力時間</div>
+							<div class="data"><%- c_time %></div>
+						</li>
+						<li>
+							<div class="title">入力文字数</div>
+							<div class="data"><%- c_tc %></div>
+						</li>
+						<li>
+							<div class="title">ミス入力数</div>
+							<div class="data"><%- c_mc %></div>
+						</li>
+						<li>
+							<div class="title">WPM</div>
+							<div class="data"><%- c_wpm %></div>
+						</li>
+						<li>
+							<div class="title">正確率</div>
+							<div class="data"><%- c_cr %></div>
+						</li>
+						<li>
+							<div class="title">苦手キー</div>
+							<div class="data"><%- c_mt %></div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="prev">
+				<h1>前回の結果</h1>
+
+				<div class="result_data">
+					<ul>
+						<li>
+							<div class="data"><%- p_score %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_level %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_time %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_tc %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_mc %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_wpm %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_cr %></div>
+						</li>
+						<li>
+							<div class="data"><%- p_mt %></div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<div id="comment">
+				<div class="container"><%- c_msg %></div>
+			</div>
+		</article>
+
+		<div id="btn_area">
+			<a id="replay_btn" class="btn">もう1回</a>
+		</div>
